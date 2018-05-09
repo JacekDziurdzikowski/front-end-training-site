@@ -12,7 +12,7 @@ gulp.task('watch', function () {
     });
 
     watch('./app/index.html', function () {
-        gulp.start('html');
+        //gulp.start('html');
     });
     watch('./app/assets/styles/**/*.css', function(){
         gulp.start('injectCss');
@@ -21,6 +21,6 @@ gulp.task('watch', function () {
 
 
 gulp.task('injectCss', ['styles'], function(){
-    gulp.src('./app/temp/styles/**/*.css')
+    gulp.src('./app/temp/styles/styles.css')
         .pipe(browser_sync.stream());
 });
