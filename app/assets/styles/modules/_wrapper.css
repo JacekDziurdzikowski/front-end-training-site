@@ -1,22 +1,18 @@
 .wrapper{
     padding-left: 4px;
     padding-right: 4px;
-    max-width: 1200px;
+    max-width: 1236px;
     margin: auto;
     overflow: hidden;
+
+    .wrapper{
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     @mixin atSmall{
         padding-left: 18px;
         padding-right: 18px;
-    }
-
-    &--wrapper-medium{
-        max-width: 976px;
-    }
-
-    @mixin atSmall{
-        padding-left: 33px;
-        padding-right: 33px;
     }
 
     @mixin atMedium{
@@ -24,8 +20,14 @@
         padding-right: 60px;
     }
 
-    .wrapper{
-        padding-left: 0;
-        padding-right: 0;
+    &--wrapper-medium{
+        max-width: 976px;
+    }
+
+    &--b-margin{
+        margin-bottom: 1rem;
+        @mixin atSmall{
+            margin-bottom: 3rem;
+        }
     }
 }
