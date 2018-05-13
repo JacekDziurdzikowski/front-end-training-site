@@ -2,7 +2,7 @@ $mainBlue: #2f5572;
 $mainOrange: #d59541;
 
 .page-section{
-    padding: 1.2rem 0;
+    padding: 0.6rem 0;
 
     @mixin atSmall{
         padding: 3rem 0;

@@ -1,8 +1,17 @@
 .wrapper{
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 4px;
+    padding-right: 4px;
     max-width: 1200px;
     margin: auto;
+
+    @mixin atSmall{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    &--wrapper-medium{
+        max-width: 976px;
+    }
 
     @mixin atSmall{
         padding-left: 33px;
@@ -12,5 +21,10 @@
     @mixin atMedium{
         padding-left: 60px;
         padding-right: 60px;
+    }
+
+    .wrapper{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
