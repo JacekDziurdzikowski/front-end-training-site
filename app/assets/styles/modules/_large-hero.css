@@ -1,6 +1,7 @@
 $mainBlue: #2f5572;
 
 .large-hero {
+    border-bottom: 10px solid $mainBlue;
     position: relative;
 
     &__text-content {
@@ -43,6 +44,10 @@ $mainBlue: #2f5572;
         @mixin atSmall{
             font-size: 2.4rem;
         }
+    }
+
+    &__image {
+        display: block;
     }
 
 }
