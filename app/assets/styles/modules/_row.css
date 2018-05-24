@@ -13,6 +13,16 @@
         margin-bottom: 1rem;
     }
 
+    &__2 {
+         float: left;
+         width: 16.66%
+    }
+
+    &__10 {
+        float: left;
+        width: 83.34%
+    }
+
      @mixin atMedium{
         &__medium-4{
             float: left;
@@ -21,6 +31,12 @@
         &__medium-4--larger{
             width: 37%
         }
+
+        &__medium-6{
+            float: left;
+            width: 50%;
+         }
+
         &__medium-8{
             float: left;
             width: 66.66%

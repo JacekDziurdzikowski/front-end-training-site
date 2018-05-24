@@ -1,0 +1,60 @@
+$mainBlue: #2f5572;
+$mainOrange: #d59541;
+
+.our-features{
+
+    &__heading{
+        max-width: 430px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4rem;
+        @mixin clearfix;
+     }
+
+    &__heading-img{
+        float: left;
+        margin-right: 1.2rem;
+     }
+
+    &__heading-text{
+        float: left;
+        font-size: 3.7rem;
+        font-weight: 200;
+        margin: 0;
+        padding-top: 0.4rem;
+
+        strong{
+            font-weight: 500;
+        }
+    }
+
+    &__row{
+        @mixin clearfix;
+    }
+
+    &__row-img{
+        float: left;
+        display: block;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        margin-right: 1rem;
+    }
+
+    &__row-content{
+        padding-right: 5.5rem;
+    }
+
+     &__row-title{
+        font-size: 1.8rem;
+        font-weight: 300;
+        margin-bottom: 0.625rem;
+      }
+
+    &__row-paragraph{
+        font-size: 1rem;
+        font-weight: lighter;
+        line-height: 1.5rem;
+    }
+}
+
+
