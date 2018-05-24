@@ -13,6 +13,10 @@
         margin-bottom: 1rem;
     }
 
+    &--shifted-to-right{
+        margin-right: -10rem;
+    }
+
     &__2 {
          float: left;
          width: 16.66%
