@@ -19,6 +19,7 @@ $mainOrange: #d59541;
     &__icon{
         margin-right: 0.5rem;
         max-width: 2.5rem;
+        display: inline-block;
 
         @mixin atMedium{
             max-width: unset;
