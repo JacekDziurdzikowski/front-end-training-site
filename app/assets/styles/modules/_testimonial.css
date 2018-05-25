@@ -10,7 +10,7 @@ $mainOrange: #d59541;
         padding: 0 1.8rem 1px 1.8rem;
     }
 
-    @mixin atMedium{
+    @mixin atLarge{
         margin-bottom: unset;
     }
 

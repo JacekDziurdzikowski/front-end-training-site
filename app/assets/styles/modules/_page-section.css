@@ -25,10 +25,18 @@ $mainOrange: #d59541;
         }
      }
 
+    &--no-b-padding-until-large{
+        padding-bottom: 0;
+
+        @mixin atLarge{
+            padding-bottom: 4.5rem;
+        }
+    }
+
     &--testimonials{
         background-color: #e0e6ef;
 
-        @mixin atMedium{
+        @mixin atLarge{
             background: url("/assets/images/testimonials-bg.jpg") top center no-repeat;
             background-size: cover;
         }
