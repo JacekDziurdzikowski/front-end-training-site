@@ -33,4 +33,17 @@
             margin-bottom: 0.8rem;
         }
     }
+
+    &__paragraph{
+         font-size: 0.8rem;
+         font-weight: lighter;
+         line-height: 1rem;
+
+        @mixin atSmall{
+            font-size: 1.2rem;
+            font-weight: lighter;
+            line-height: 1.5rem;
+        }
+
+     }
 }

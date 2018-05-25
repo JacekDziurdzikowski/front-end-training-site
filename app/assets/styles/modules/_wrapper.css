@@ -30,4 +30,24 @@
             margin-bottom: 3rem;
         }
     }
+
+    &--no-padding-until-medium{
+        padding-left: 0;
+        padding-right: 0;
+
+        @mixin atMedium{
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+     }
+
+    &--no-padding-until-large{
+        padding-left: 0;
+        padding-right: 0;
+
+        @mixin atLarge{
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+    }
 }

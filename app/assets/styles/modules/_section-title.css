@@ -1,3 +1,7 @@
+$mainBlue: #2f5572;
+$mainOrange: #d59541;
+
+
 .section-title{
     font-size: 2rem;
     font-weight: 200;
@@ -7,6 +11,11 @@
         font-size: 3.75rem;
     }
 
+    &--blue{
+         color: #2f5572;
+    }
+
+
     &__icon{
         margin-right: 0.5rem;
         max-width: 2.5rem;
@@ -14,6 +23,12 @@
         @mixin atMedium{
             max-width: unset;
             margin-right: 0.2rem;
+            position: relative;
+            top: 8px;
+
+            &--testimonials{
+                margin-right: 1.7rem;
+            }
         }
     }
 }
