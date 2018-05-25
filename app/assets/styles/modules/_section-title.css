@@ -15,9 +15,6 @@ $mainOrange: #d59541;
          color: #2f5572;
     }
 
-    &--b-margin-large{
-        margin-bottom: 120px;
-    }
 
     &__icon{
         margin-right: 0.5rem;

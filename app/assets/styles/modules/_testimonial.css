@@ -3,7 +3,20 @@ $mainOrange: #d59541;
 
 .testimonial{
     background-color: rgba(255, 255, 255, 0.75);
-    padding: 0 1.8rem 1px 1.8rem;
+    padding-bottom: 1px;
+    margin-bottom: 98px;
+
+    @mixin atSmall{
+        padding: 0 1.8rem 1px 1.8rem;
+    }
+
+    @mixin atMedium{
+        margin-bottom: unset;
+    }
+
+    &--last{
+        margin-bottom: unset;
+     }
 
     &__photo{
         border-radius: 5rem;
@@ -29,5 +42,11 @@ $mainOrange: #d59541;
         text-align: center;
         font-size: 0.9rem;
         margin-top: 0px;
+    }
+
+    &__paragraph{
+         font-size: 1.3rem;
+         font-weight: 300;
+         line-height: 1.7rem;
     }
 }

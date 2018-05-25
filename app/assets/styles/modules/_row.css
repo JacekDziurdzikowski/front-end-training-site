@@ -1,5 +1,10 @@
 .row{
     @mixin clearfix;
+    margin: 0 auto;
+
+    &--t-padding{
+        padding-top: 80px;
+     }
 
     &--gutters{
         margin-right: -65px;
@@ -17,11 +22,24 @@
         padding-right: 100px;
     }
 
+    &--gutters-small{
+        margin-right: -45px;
+    }
+
+    &--gutters-small > div{
+        padding-right: 45px;
+    }
+
 
     &__b-margin-until-medium{
         margin-bottom: 1rem;
     }
 
+
+     /* Begin gutters rules */
+{}
+
+     /* Begin column division rules */
      @mixin atMedium{
         &__medium-4{
             float: left;
@@ -49,4 +67,19 @@
         }
      }
 
+
+    /* Begin equal height rules */
+    &--equal-height-at-medium{
+
+        @mixin atMedium{
+            display: flex;
+
+            & > div {
+                float: none;
+                display: flex;
+            }
+        }
+
+
+    }
 }
